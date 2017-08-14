@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="margin: 0; padding: 0; min-width: 100%; mso-line-height-rule: exactly; width: 100%;">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Start Marketo Variables --> 
+        <meta class="mktoString" id="submanPreferenceID" mktoName="Preference ID (Required)" default="REQUIRED" mktomodulescope="true">
+        <meta class="mktoString" id="contactUsEmail" mktoName="Unit Contact Email" default="ADD EMAIL" mktomoduslescope="true">
+      	<!-- End Marketo Variables -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet" type="text/css" />
+        <!--[if gte mso 9]>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:AllowPNG/>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--> 
+        <!--[if mso]>
+        <style type="text/css">
+            .text {
+            	font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+            }
+        </style>
+        <![endif]--> 
+        <!--[if (mso 12)|(mso 14)|(mso 15)|(mso 16)]>
+        <style type="text/css">
+            .text {
+            	font-family: Arial, Helvetica, sans-serif !important;
+            }
+        </style>
+        <![endif]-->
+        <style> 
+          	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic);
+          	/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+            #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+            .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+            body, table, td, p, a, li, blockquote{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+            table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+            img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+            /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+            body{margin:0; padding:0;}
+            img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+            table{border-collapse:collapse !important;}
+            body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+            
+            @-ms-viewport { 
+                width: device-width; 
+            }
+            /* /\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/ */ 
+            html, body {
+                margin: 0; 
+                padding: 0;
+                min-width: 100%;
+                mso-line-height-rule: exactly;
+            }
+            /* /\/\/\/\/\/\/ TYPOGRAPHIC STYLES /\/\/\/\/\/\/ */ 
+            h1 {
+                color: #ffffff;
+                font-family: 'Open Sans', arial, helvetica, sans-serif;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 1.1;  
+            }
+            
+            h2 {
+                color: #ffffff;
+                font-family: 'Open Sans', arial, helvetica, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.2;  
+            }
+            
+            p {
+                color: #3d3d3d;
+                font-family: 'Open Sans', arial, helvetica, sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 1.7;
+            }
+            
+            table {
+                margin: 0 auto !important;
+            }
+            a {
+                color: #0088dd;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            a:hover, a:focus {
+                  color: #85754d;
+                border-bottom: 1px solid #BDBDBD;
+            }
+            
+            /* Forces link color to be white, instead of Apple's default blue */
+            .apple-link-white {
+                color: #ffffff !important;
+            }
+            
+            /* Forces link color to be grey, instead of Apple's default blue */
+            .apple-link-grey {
+                color: #3d3d3d !important;
+            }
+            /* /\/\/\/\/\/\/ TABLE ELEMENTS /\/\/\/\/\/\/ */
+            .column-2 {
+                width: 50%;
+            }
+            
+            .column-3 {
+                width: 33.33%;    
+            }
+            
+            .column-4 {
+                width: 25%;
+            }
+            .border {
+                border: 1px solid #d2d2d2;
+            }
+             
+            .purple-header img {
+                display: block;
+                text-align:left;
+                font-family: 'Open Sans', arial, helvetica, sans-serif;
+                font-weight: 700;
+                font-size: 14px; 
+                line-height: 1.2; 
+                text-transform: uppercase;
+                color: #ffffff;
+                vertical-align: middle; 
+                letter-spacing: 1px;
+                border: none;            
+            }
+            
+            .purple-header td {
+                background-color: #4b2e83; 
+                padding: 8px 0;
+                
+            }
+            
+            .unit-name {
+                font-weight: 600 !important;
+            }
+            
+            .headline-image td {
+                background-color: #cccccc;
+            }
+            
+            .grey-bar-footer a {
+                color: #ffffff;
+                font-family: 'Open Sans', arial, helvetica, sans-serif;
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                line-height: 1.2;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                vertical-align: middle;    
+            }
+            
+            .grey-bar-footer td {
+                  padding: 4px 0;
+            }
+            
+            .social-media-footer {
+                font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 1.2;
+                text-align: center !important;
+                color: #3d3d3d !important;
+                vertical-align: middle;
+            }
+            
+            .social-media-footer a {
+                border-bottom: none !important;
+                text-decoration: none;
+            }
+            
+            .anti-spam-row td {
+                 font-family: 'Open Sans', arial, helvetica, sans-serif;
+                font-size: 9px;
+                font-weight: 400;
+                 line-height: 2.5;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            .anti-spam-row a {
+                color: #3d3d3d !important;
+                text-decoration: none !important;
+            }
+            
+            .anti-spam-row-purple td {
+                font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+                font-size: 9px;
+                font-weight: 400;
+                 line-height: 2.5;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            .anti-spam-row-purple a {
+                color: #ffffff !important;
+                text-decoration: none !important;
+            }
+            
+             /* /\/\/\/\/\/\/ TABLE STYLISTIC ELEMENTS /\/\/\/\/\/\/ */ 
+            .white-background td {
+                background-color: #ffffff;
+            }
+            
+            .purple-background td {
+                background-color: #4b2e83;
+            }
+            
+            .dark-gold-background td {
+                background-color: #b7a57a;
+            }
+            
+            .light-gold-background td {
+                background-color: #e8e3d3;
+            }
+            .dark-grey-background td {
+                background-color: #444444;
+            }
+            
+            .cool-grey-background td {
+                background-color: #8d9194;
+            }
+          
+          	.linkBar td {
+            	color: #ffffff;
+              	padding: 5px 20px;
+              	font-size: 12px;
+              	line-height: 16px;
+              	font-family: 'Open Sans', Arial, helvetica, sans-serif;
+            }
+          
+            .linkBar td a {
+            	color: #ffffff;  
+              	padding: 0px 2px;
+            }
+          
+            .bodyContent td {
+            	padding: 10px 20px;
+              	font-family: 'Open Sans', Arial, helvetica, sans-serif;
+                font-size: 14px;
+                line-height: 18px;
+                color: #3d3d3d;
+              	background-color: #ffffff;
+            }
+          
+          	.bodyContentText p {
+            	font-family: 'Open Sans', Arial, helvetica, sans-serif;
+                font-size: 14px;
+                line-height: 18px;
+                color: #3d3d3d;
+            }
+          
+            @media only screen and (max-width: 480px) {
+                body,
+                table,
+                td,
+                p,
+                a,
+                li,
+                blockquote {
+                    -webkit-text-size-adjust: none !important
+                }
+                body {
+                    width: 100% !important;
+                    min-width: 100% !important
+                }
+                #bodyCell {
+                    padding: 10px !important
+                }
+            }
+            @media screen and (max-width: 550px) {
+                .image-column img {
+                    width: 100% !important
+                }
+                .stack-column {
+                    display: block !important;
+                    width: 100% !important
+                }
+                .stretch-image img {
+                    width: 100% !important
+                }
+                .section-headline {
+                    font-size: 22px !important;
+                    text-align: center !important
+                }
+                .column-4-link {
+                    text-align: center !important
+                }
+                .column-3 table .text {
+                    text-align: center !important
+                }
+            }
+            @media screen and (max-width: 480px) {
+                .stack-column {
+                    display: block !important;
+                    width: 100% !important
+                }
+                .unit-name {
+                    text-align: center !important
+                }
+                .unit-logo img {
+                    margin: 0 auto !important
+                }
+                .main-headline {
+                    font-size: 20px !important
+                }
+                .subhead {
+                    font-size: 15px !important
+                }
+                .newsletter-title {
+                    font-size: 24px !important
+                }
+                .item-head {
+                    padding: 5px 10px 0px 10px !important
+                }
+                .item-paragraph {
+                    padding: 5px 10px 15px 10px !important
+                }
+                .callout-head {
+                    font-size: 22px !important
+                }
+                .body-copy,
+                p {
+                    font-size: 14px !important;
+                    line-height: 160% !important;
+                    text-align: left !important
+                }
+                .grey-bar-footer a {
+                    font-size: 13px !important;
+                    line-height: 2 !important
+                }
+                .social-media-footer {
+                    font-size: 13px !important;
+                    line-height: 2 !important
+                }
+            }
+      </style>
+    </head>
+	<body style="margin-bottom: 0; -webkit-text-size-adjust: 100%; padding-bottom: 0; min-width: 100%; margin-top: 0; margin-right: 0; -ms-text-size-adjust: 100%; margin-left: 0; padding-top: 0; padding-right: 0; padding-left: 0; width: 100%;">
+		<div style="display:none; white-space:nowrap; font:15px courier; line-height:0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+		<!-- Outer table START -->
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: collapse;">
+			<tbody>
+				<tr>
+					<td class="outer" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; min-width: 600px; border-collapse: collapse; background-color: #eeeeee;">
+						<table width="640" align="center" id="boxing" border="0" cellpadding="0" cellspacing="0" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; border-collapse: collapse;">
+							<tbody>
+								<tr>
+                                  <td class="mktoContainer boxedbackground" id="template-wrapper" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; border-collapse: collapse;">
+                                  </td>
+                              	</tr>
+                          	</tbody>
+                      	</table>
+                  	</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- Outer Table END -->
+	</body>
+</html>
